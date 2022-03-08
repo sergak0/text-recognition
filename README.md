@@ -13,6 +13,11 @@
 2) Определить на каком языке писали на этой фотографии (англиский/русский)
 3) Каждую найденную область прогнать через OCR модель и распознать что там написано
 
+## Кратко
+* Instance Segmentation = crop + maskrcnn_resnet50_fpn
+* Language classification = resnet_34
+* Ocr = microsoft/trocr-small-handwritten + hkr + generating dataset + HandWrittenBlot
+
 ## Инcтсанс Сегментация
 В качестве модели распознавания мы попробовали две модели: detectoRS - одна из моделей зоопарка [mmdetection](https://github.com/open-mmlab/mmdetection) и предобученный на COCO maskrcnn_resnet50_fpn (реализовали на торче).
 
