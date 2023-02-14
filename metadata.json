@@ -1,0 +1,4 @@
+{
+    "image": "sergak0/nti-hack:0.1",
+    "entry_point": "python run.py"
+}
